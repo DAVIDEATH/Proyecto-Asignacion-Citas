@@ -1,0 +1,102 @@
+/*paleta*/
+:root {
+    --primario: rgb(0, 0, 78);
+    --blanco: rgb(255, 255, 255);
+    --botones:rgb(64, 108, 255);
+    --fondo:#EDEDED;
+}
+   
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: var(--fondo);
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15% ;
+    background-color: var(--blanco);
+}
+
+header img a{
+    margin: 0px 0px 5px 5%;
+    width: 200px;
+    height: 100px;
+}
+
+header h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: var(--primario);
+}
+
+/*navegacion*/
+nav{
+    background-color: var(--primario);
+    padding: 10px;
+    display: flex;
+}
+
+nav a{
+    color: var(--blanco);
+    text-align: center;
+    background-color: rgb(64, 108, 255);
+    text-decoration: none;
+    font-size:20px;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    margin-left: 80%;
+}
+
+header h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: var(--primario);
+}
+
+/* menu */
+
+menu, h2{
+    background-color: var(--fondo);
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.tabla1{
+    border: 1px solid black;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: var(--blanco);
+}
+
+.tabla1 td{
+    font-size: 20px;
+    padding: 3px 3px;
+    width: 120px;
+    text-align: center;
+    border-bottom: 1px solid black ;
+}
+
+tr .eliminar{
+    width: 50px;
+}
+
+.eliminar a{
+    text-decoration: none;
+    color: rgb(201, 4, 4);
+}
+
+.tabla1 #color{
+    color: var(--primario);
+    font-weight: 600;
+}
+

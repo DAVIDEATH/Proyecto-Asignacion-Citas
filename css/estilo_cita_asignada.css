@@ -1,0 +1,120 @@
+/*paleta*/
+:root {
+    --primario: rgb(0, 0, 78);
+    --blanco: rgb(255, 255, 255);
+    --botones:rgb(64, 108, 255);
+    --fondo:#EDEDED;
+}
+   
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15% ;
+}
+
+header img a{
+    margin: 0px 0px 5px 5%;
+    width: 200px;
+    height: 100px;
+}
+
+header h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: var(--primario);
+}
+
+/*navegacion*/
+nav{
+    background-color: var(--primario);
+    padding: 10px;
+    display: flex;
+}
+
+nav a{
+    color: var(--blanco);
+    text-align: center;
+    background-color: rgb(64, 108, 255);
+    text-decoration: none;
+    font-size:20px;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    margin-left: 80%;
+}
+
+header h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: var(--primario);
+}
+
+/* menu */
+
+menu, h2{
+    background-color: var(--fondo);
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+
+article h3{
+    margin: 0px auto;
+    text-align: center;
+    background-color: rgb(122, 204, 0);
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+article .text_inf_cita{
+    width: 800px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: var(--fondo);
+    margin:10px auto ;
+    font-size: 25px;
+}
+.text_inf_cita img{
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+}
+.text_inf_cita a{
+    border: 1px solid black;
+    background-color: var(--botones);
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 330px;
+    margin-bottom: 10px;
+}
+a.gen_pdf{
+    margin-top: 5px;
+    margin-left: 285px;
+}
+
+.recomendacion{
+    margin-top: 10px;
+    margin-left: 120px;
+    font-size: 18px;
+}
+
+.recomendacion h2{
+    margin-left: -100px;
+    margin-bottom: 5px;
+}
+
+
+

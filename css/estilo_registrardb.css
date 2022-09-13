@@ -1,0 +1,92 @@
+/*paleta*/
+:root {
+    --primario: rgb(0, 0, 78);
+    --blanco: rgb(255, 255, 255);
+    --botones:rgb(64, 108, 255);
+}
+   
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15% ;
+}
+
+header img{
+    margin: 0px 0px 5px 5%;
+    width: 200px;
+    height: 100px;
+}
+
+header h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: var(--primario);
+}
+
+/*navegacion*/
+nav{
+    background-color:rgb(0, 255, 0);
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+nav h1{
+    margin: auto;
+    text-align: center;
+}
+
+/*menu*/
+menu{
+    padding: 10px;
+}
+
+menu h1{
+    margin:auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+menu h2{
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+menu a{
+    display: flex;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--blanco);
+    border: 1px solid var(--primario);
+    border-radius: 5px;
+    background-color: var(--botones);
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton_regreso{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 8px;
+}
+
+menu .eva{
+    margin-left: 550px;
+}
+
+

@@ -1,0 +1,63 @@
+:root {
+    --primario: rgb(0, 0, 78);
+    --blanco: rgb(255, 255, 255);
+    --botones:rgb(64, 108, 255);
+    --fondo:#EDEDED;
+}
+   
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text_inf_cita{
+    border: 1px solid black;
+    width: 800px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: var(--fondo);
+    margin:10px auto ;
+    font-size: 25px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text_inf_cita p{
+    font-size: 30px;
+}
+.text_inf_cita img{
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+}
+.text_inf_cita a{
+    border: 1px solid black;
+    background-color: var(--botones);
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 330px;
+    margin-bottom: 10px;
+}
+a.gen_pdf{
+    margin-top: 5px;
+    margin-left: 285px;
+}
+
+.recomendacion{
+    margin-top: 10px;
+    margin-left: 120px;
+    font-size: 18px;
+}
+
+.recomendacion h2{
+    margin-left: 200px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}

@@ -1,0 +1,109 @@
+/*paleta*/
+:root {
+    --primario: rgb(0, 0, 78);
+    --blanco: rgb(255, 255, 255);
+    --botones:rgb(64, 108, 255);
+}
+   
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15% ;
+}
+
+header img a{
+    margin: 0px 0px 5px 5%;
+    width: 200px;
+    height: 100px;
+}
+
+header h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: var(--primario);
+}
+
+/*navegacion*/
+nav{
+    background-color: var(--primario);
+    padding: 10px;
+    display: flex;
+}
+
+nav a{
+    color: var(--blanco);
+    text-align: center;
+    background-color: rgb(64, 108, 255);
+    text-decoration: none;
+    font-size:20px;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    margin-left: 80%;
+}
+
+/* menu */
+
+form h1, h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.formularios{
+    width: 460px;
+
+    margin: auto;
+    padding: 20px;
+    display:flexbox;
+    flex-direction: row;
+    border: 1px solid rgb(161, 161, 161);
+}
+
+.formularios label{
+    font-size: 20px;
+    float:inline-end;
+    text-align: left;
+}
+
+.formularios input{
+    width: 200px;
+    height: 20px;
+    padding: 0px;
+    float: right;
+    font-size: 15px;
+}
+
+.select{
+    width: 100px;
+    float:right;
+    margin-right: 105px;
+    cursor: pointer;
+}
+
+.articulo_importante h2{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.articulo_importante h3{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.enviar{
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 5px 0 5px 600px;
+    cursor: pointer;
+}

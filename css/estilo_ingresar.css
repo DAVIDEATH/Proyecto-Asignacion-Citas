@@ -1,0 +1,131 @@
+/*paleta*/
+:root {
+    --primario: rgb(0, 0, 78);
+    --blanco: rgb(255, 255, 255);
+    --botones:rgb(64, 108, 255);
+}
+   
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15% ;
+}
+
+header img{
+    margin: 0px 0px 5px 5%;
+    width: 200px;
+    height: 100px;
+}
+
+header h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: var(--primario);
+}
+
+/*navegacion*/
+nav{
+    background-color: var(--primario);
+    padding: 10px;
+    display: flex;
+}
+
+nav a{
+    color: var(--blanco);
+    text-align: center;
+    background-color: rgb(64, 108, 255);
+    text-decoration: none;
+    font-size:20px;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    margin-left: 80%;
+}
+
+/*menu*/
+menu{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+menu img{
+    width: 35%;
+    height:400px;
+    margin: 10px 100px;
+}
+
+form{
+    margin: 10px 100px;
+    padding:10px;
+}
+
+form h1{
+    text-align: center; 
+    margin-bottom: 5px;
+}
+
+form h2{
+    text-align: center; 
+    margin-bottom:20px;
+}
+
+form select{
+    padding: 6px;
+    margin-left: 100px;
+}
+
+form label{
+    font-size: 20px;
+    margin-left: 150px;
+    padding: 5px;
+    font-weight:900;
+    color:var(--primario);
+}
+
+form input{
+    font-size: 15px;
+    padding-left: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+
+.ingresar{
+    background-color: var(--botones);
+    color: white;
+    margin: 10px 200px;
+    font-size: 20px;
+    width: 130px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form h3{
+    margin-left: 150px;
+    margin-bottom: 5px;
+}
+
+form a{
+    margin-left: 150px;
+    text-decoration:none ;
+}
+
+.bad{
+    background-color: rgb(190, 0, 0);
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}

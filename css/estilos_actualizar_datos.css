@@ -1,0 +1,122 @@
+/*paleta*/
+:root {
+    --primario: rgb(0, 0, 78);
+    --blanco: rgb(255, 255, 255);
+    --botones:rgb(64, 108, 255);
+    --fondo:#EDEDED;
+}
+   
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15% ;
+}
+
+header img a{
+    margin: 0px 0px 5px 5%;
+    width: 200px;
+    height: 100px;
+}
+
+header h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: var(--primario);
+}
+
+/*navegacion*/
+nav{
+    background-color: var(--primario);
+    padding: 10px;
+    display: flex;
+}
+
+nav a{
+    color: var(--blanco);
+    text-align: center;
+    background-color: rgb(64, 108, 255);
+    text-decoration: none;
+    font-size:20px;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    margin-left: 80%;
+}
+
+header h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: var(--primario);
+}
+
+/* menu */
+
+menu, h2{
+    background-color: var(--fondo);
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+
+article{
+    background-color: var(--fondo);
+    padding: 20px;
+    width: 900px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+}
+
+article h3{
+    font-size: 30px;
+}
+
+article .cambiar_datos_basicos{
+    width: 450px;
+    padding: 5px 3px 5px 5px;
+    font-size: 25px;
+    border-right: 1px solid black;
+}
+
+article .cambiar_datos_privados{
+    width: 400px;
+    padding: 5px;
+    font-size: 24px;
+    border-left: 1px solid blac;
+}
+article p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+article label{
+    margin-left: 30px;
+}
+
+article input{
+    padding: 3px;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+#cursor{
+    width: 100px;
+    font-weight: 500;
+    margin: 15px 120px 0.5% 120px;
+    padding: 3px;
+    cursor: pointer;
+}
